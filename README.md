@@ -45,3 +45,12 @@ The **Smart Travel Planner** is a web-based application built using **Streamlit*
 ---
 
 ## Project Structure
+smart-travel-planner/
+│
+├── app.py               # Main Streamlit application
+├── auth.py              # User authentication logic
+├── crud.py              # CRUD operations for trips and itineraries
+├── db.py                # MongoDB connection and backup handling
+├── utils.py             # Helper functions for displaying data
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
